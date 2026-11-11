@@ -1,0 +1,40 @@
+{
+  "Actions": [
+    {
+      "UUID": "com.marco.displayswitch.knob",
+      "Icon": "images/action.png",
+      "States": [
+        {
+          "Image": "images/knob.png",
+          "Title": "",
+          "ShowTitle": false
+        }
+      ],
+      "Name": "Modo de pantalla (Win+P)",
+      "Tooltip": "Girá para elegir el modo de pantalla y pulsá para aplicarlo",
+      "UserTitleEnabled": false,
+      "SupportedInMultiActions": false,
+      "Controllers": ["Knob"]
+    }
+  ],
+  "Version": "1.0.0",
+  "Name": "Display Switch",
+  "Icon": "images/plugin.png",
+  "CategoryIcon": "images/category.png",
+  "Category": "Display Switch",
+  "Description": "Switch the Windows display mode (Win+P: PC screen only, duplicate, extend, second screen only) with a knob: rotate to choose, press to confirm.",
+  "CodePath": "displayswitch.exe",
+  "CodePathWin": "displayswitch.exe",
+  "SDKVersion": 1,
+  "Author": "Marco",
+  "URL": "https://github.com/Marco-caizzi/redragon-ss552-display-switch",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "2.10.179.426"
+  }
+}

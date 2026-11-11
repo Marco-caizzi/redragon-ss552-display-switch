@@ -1,0 +1,4 @@
+build/
+*.zip
+com.marco.displayswitch.sdPlugin/displayswitch.exe
+com.marco.displayswitch.sdPlugin/*.log
